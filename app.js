@@ -8,7 +8,7 @@ var botao = document.querySelector('#botao');
 
 botao.addEventListener("click", function(){
     console.log(pesquisa);
-fetch('http://www.omdbapi.com/?s='+ pesquisa.value.replace(" ", "+") + '&type='+ tipo.value + '&apikey=6ec86a0')
+fetch('https://www.omdbapi.com/?s='+ pesquisa.value.replace(" ", "+") + '&type='+ tipo.value + '&apikey=6ec86a0')
         .then(function(resposta) {
             return resposta.json();
         })
