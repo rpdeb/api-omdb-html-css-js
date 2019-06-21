@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Search Movies</title>
+    <meta charset="utf-8">
+    <meta name= "viewport" 
+    content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="author" content="Ana Luiza,Debora">
+    <meta name="description" content="Requisições do banco de dados de filmes, OMDB">
+    <meta name="keywords" content="filmes, detalhes, aspectos">
+    <link rel="icon" href="icon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="full-width-pics.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"> Search Movies</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+            <li class="nav-item active">
+              <a class="nav-link" href="sobre.html">Sobre
+                <span class="sr-only">(current)</span>
+              </a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <img src="iStock.jpg" width="100%" alt="10%">
+  </header>
+  <section style="text-align:center" > 
+      <h2>Seja bem vindo (a)!</h2>
+     <p>Sinta-se a vontade, para iniciar a experiência no Search Movies.</p>
+      
+     <h2>#Descubra</h2> 
+      <p> Insira o título para busca ! <br>
+        No tipo, para filme digite: movie <br>
+        para série, digite: series 
+      </p>
+        
+    </section>
+  <div class="ax" style= "text-align: center">
+      <form>
+          <input type="text" id="pesquisa" placeholder="Título">
+          <input type="text" id="tipo" placeholder="Tipo">
+          <input type="button" id="botao">
+      </form>
+  </div>
+ <main style= "text-align: center">      
+ </main>
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+    </div>
+  </footer>
+</body>
+</html>
+<script src="jquery/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="app.js"></script>
